@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCCOUNTRIES004 - GET REGION</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32bc263d-8f81-45b4-b641-ae73ad58ef4c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>606c0620-a481-49e4-a7ed-a096381d38c0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Data Files Countries - Region</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>606c0620-a481-49e4-a7ed-a096381d38c0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>region</value>
+      <variableId>3d4b69a1-08e5-4c1e-98f2-3fe3d220b4f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>606c0620-a481-49e4-a7ed-a096381d38c0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>country_count</value>
+      <variableId>024ca93d-58cb-4763-be70-b03694b458b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d4b69a1-08e5-4c1e-98f2-3fe3d220b4f4</id>
+      <masked>false</masked>
+      <name>region</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>024ca93d-58cb-4763-be70-b03694b458b6</id>
+      <masked>false</masked>
+      <name>country_count</name>
+   </variable>
+</TestCaseEntity>

@@ -7,6 +7,6 @@
    <GlobalVariableEntity>
       <description>https://restcountries.com/v3.1/</description>
       <initValue>'https://restcountries.com/v3.1/'</initValue>
-      <name>Base_Url</name>
+      <name>BASE_URL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
