@@ -20,8 +20,6 @@ import groovy.json.JsonSlurper as JsonSlurper
 
 response = WS.sendRequest(findTestObject('Countries/all', [('BASE_URL_COUNTRIES') : GlobalVariable.BASE_URL_COUNTRIES]))
 
-WS.sendRequestAndVerify(findTestObject('Countries/all', [('BASE_URL_COUNTRIES') : GlobalVariable.BASE_URL_COUNTRIES]))
-
 WS.verifyResponseStatusCode(response, 200)
 
 // Step 3: Parse JSON response
