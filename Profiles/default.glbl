@@ -7,11 +7,16 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://reqres.in/'</initValue>
-      <name>Base_Url</name>
+      <name>BASE_URL_REQRES</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>BASE_URL</name>
+      <initValue>'https://restcountries.com/v3.1'</initValue>
+      <name>BASE_URL_COUNTRIES</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://jsonplaceholder.typicode.com'</initValue>
+      <name>BASE_URL_JSONPlaceholder</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

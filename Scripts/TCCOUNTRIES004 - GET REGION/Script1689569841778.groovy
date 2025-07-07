@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Countries/region', [('BASE_URL') : GlobalVariable.BASE_URL, ('region') : region]))
+response = WS.sendRequest(findTestObject('Countries/region', [('BASE_URL_COUNTRIES') : GlobalVariable.BASE_URL_COUNTRIES
+            , ('region') : region]))
 
 WS.verifyResponseStatusCode(response, 200)
 

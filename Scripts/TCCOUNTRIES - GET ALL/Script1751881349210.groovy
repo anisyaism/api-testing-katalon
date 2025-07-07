@@ -16,18 +16,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper
 
 
-response = WS.sendRequest(findTestObject('Countries/name', [('BASE_URL_COUNTRIES') : GlobalVariable.BASE_URL_COUNTRIES
-	, ('country_name') : country_name]))
+response = WS.sendRequest(findTestObject('Countries/all', [('BASE_URL_COUNTRIES') : GlobalVariable.BASE_URL_COUNTRIES]))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, '[0].name.official', official_name)
+// Step 3: Parse JSON response
+def jsonSlurper = new JsonSlurper()
+def jsonResponse = jsonSlurper.parseText(response.getResponseText())
 
-WS.verifyElementPropertyValue(response, '[0].capital[0]', capital)
+// Step 4: Basic assertion – make sure we got at least one country
+assert jsonResponse.size() > 0 : "There are a country" 
 
-WS.verifyElementPropertyValue(response, '[0].region', region)
+// Step 5: Loop through and print all country names
+println "==== Country List ===="
+jsonResponse.eachWithIndex { country, index -> println "${index + 1}. ${country.name.common}"}
 
-WS.verifyElementText(response, '[0].population', population)
 
+// Step 6: Specific checks (example: first country should be Indonesia)
+def firstCountry = jsonResponse[0]
+
+WS.verifyElementPropertyValue(response, '[0].name.common', 'Togo')
+assert firstCountry.name.official == 'Togolese Republic'
+assert firstCountry.name.nativeName.fra.official == 'République togolaise'

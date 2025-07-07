@@ -5,6 +5,7 @@
    <tag></tag>
    <elementGuidId>44e70d10-2a48-4df2-87fc-ad6a92b130a2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
@@ -27,8 +28,9 @@
    <katalonVersion>8.6.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${BASE_URL}/currency/${currency}</restUrl>
+   <restUrl>${BASE_URL_COUNTRIES}/currency/${currency}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -38,11 +40,11 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.BASE_URL_COUNTRIES</defaultValue>
       <description></description>
       <id>9fe4315d-b6d9-4a10-9fed-b1b8a7b9f88b</id>
       <masked>false</masked>
-      <name>BASE_URL</name>
+      <name>BASE_URL_COUNTRIES</name>
    </variables>
    <variables>
       <defaultValue>'rupiah'</defaultValue>

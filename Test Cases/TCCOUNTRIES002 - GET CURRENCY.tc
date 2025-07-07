@@ -4,6 +4,7 @@
    <name>TCCOUNTRIES002 - GET CURRENCY</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>16a51d0e-25cb-4ca2-a37c-572987d02e16</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>

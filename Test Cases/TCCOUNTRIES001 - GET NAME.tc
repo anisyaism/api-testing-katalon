@@ -4,10 +4,11 @@
    <name>TCCOUNTRIES001 - GET NAME</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9195d0c4-a407-4608-9612-fd1500c99f74</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>3e48e3ce-de89-4b33-87b6-4254f9721e78</id>
+      <id>206a3259-0b9f-4aef-abd9-492a3976e593</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -15,31 +16,31 @@
       <testDataId>Data Files/Data Files Countries - Name</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>3e48e3ce-de89-4b33-87b6-4254f9721e78</testDataLinkId>
+      <testDataLinkId>206a3259-0b9f-4aef-abd9-492a3976e593</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>country_name</value>
       <variableId>6f8a6239-e532-40bd-8dad-20f717ce3fd9</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>3e48e3ce-de89-4b33-87b6-4254f9721e78</testDataLinkId>
+      <testDataLinkId>206a3259-0b9f-4aef-abd9-492a3976e593</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>official_name</value>
       <variableId>f9eeecf4-5824-4135-8086-bda0a9302a6d</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>3e48e3ce-de89-4b33-87b6-4254f9721e78</testDataLinkId>
+      <testDataLinkId>206a3259-0b9f-4aef-abd9-492a3976e593</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>capital</value>
       <variableId>a0fb99a0-1e26-4641-9636-481d9c45cd12</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>3e48e3ce-de89-4b33-87b6-4254f9721e78</testDataLinkId>
+      <testDataLinkId>206a3259-0b9f-4aef-abd9-492a3976e593</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>region</value>
       <variableId>83fa9cdc-a158-408b-8a37-c26caec131b8</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>3e48e3ce-de89-4b33-87b6-4254f9721e78</testDataLinkId>
+      <testDataLinkId>206a3259-0b9f-4aef-abd9-492a3976e593</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>population</value>
       <variableId>a442b0fb-0074-4d79-a8f7-19993ce6027d</variableId>

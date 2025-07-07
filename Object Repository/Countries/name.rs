@@ -5,6 +5,7 @@
    <tag></tag>
    <elementGuidId>2975bcc4-cff6-4fa4-b0f3-23eecc3d7f48</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
@@ -27,8 +28,9 @@
    <katalonVersion>8.6.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${BASE_URL}name/${country_name}</restUrl>
+   <restUrl>${BASE_URL_COUNTRIES}/name/${country_name}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -38,11 +40,11 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.BASE_URL_COUNTRIES</defaultValue>
       <description></description>
       <id>3b9a18c7-3e4a-4ba0-ac0a-c44f8847d6ff</id>
       <masked>false</masked>
-      <name>BASE_URL</name>
+      <name>BASE_URL_COUNTRIES</name>
    </variables>
    <variables>
       <defaultValue>'indonesia'</defaultValue>

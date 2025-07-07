@@ -4,6 +4,7 @@
    <name>TCCOUNTRIES003 - GET CAPITAL</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>549fc337-22bf-42b6-a638-c4406e56ba78</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>

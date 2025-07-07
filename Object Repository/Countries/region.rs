@@ -5,9 +5,10 @@
    <tag></tag>
    <elementGuidId>6969f78a-37d4-4bdf-866e-68115e9e7599</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -25,24 +26,25 @@
       <webElementGuid>cf4f3abe-0a79-4692-8f3c-32b43a08a23b</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.5</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${BASE_URL}/region/${region}</restUrl>
+   <restUrl>${BASE_URL_COUNTRIES}/region/${region}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.BASE_URL_COUNTRIES</defaultValue>
       <description></description>
       <id>88cd5678-9f83-46b8-88ee-bd871033b1e4</id>
       <masked>false</masked>
-      <name>BASE_URL</name>
+      <name>BASE_URL_COUNTRIES</name>
    </variables>
    <variables>
       <defaultValue>'asia'</defaultValue>

@@ -4,6 +4,7 @@
    <name>TCCOUNTRIES004 - GET REGION</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>32bc263d-8f81-45b4-b641-ae73ad58ef4c</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>

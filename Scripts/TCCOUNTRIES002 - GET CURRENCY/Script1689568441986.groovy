@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Countries/currency', [('BASE_URL') : GlobalVariable.BASE_URL, ('currency') : currency]))
+response = WS.sendRequest(findTestObject('Countries/currency', [('BASE_URL_COUNTRIES') : GlobalVariable.BASE_URL_COUNTRIES
+            , ('currency') : currency]))
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -26,6 +27,4 @@ WS.verifyElementPropertyValue(response, '[0].name.common', country_common_name)
 WS.verifyElementPropertyValue(response, '[0].fifa', fifa)
 
 WS.verifyElementText(response, '[0].capital[0]', capital)
-
-
 

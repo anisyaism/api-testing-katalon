@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>b0110e74-c7bd-4e5f-911d-8a5bf57ac01e</dataFileGUID>
-   <dataSourceUrl>C:\Users\XSIS User\Downloads\data_files_rest_countries.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\Lenovo\Downloads\data_files_rest_countries.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

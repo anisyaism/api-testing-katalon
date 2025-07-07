@@ -5,6 +5,7 @@
    <tag></tag>
    <elementGuidId>a94a9c12-83ac-40bc-a1be-20b2ea371ea0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
@@ -27,8 +28,9 @@
    <katalonVersion>8.6.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${BASE_URL}capital/${capital}</restUrl>
+   <restUrl>${BASE_URL_COUNTRIES}/capital/${capital}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -38,11 +40,11 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.BASE_URL_COUNTRIES</defaultValue>
       <description></description>
       <id>5f58839d-4e78-4a4a-aab5-bc5def2ea2c3</id>
       <masked>false</masked>
-      <name>BASE_URL</name>
+      <name>BASE_URL_COUNTRIES</name>
    </variables>
    <variables>
       <defaultValue>'tokyo'</defaultValue>
