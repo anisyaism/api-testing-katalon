@@ -34,7 +34,7 @@ assert jsonResponse.size() > 0 : 'There are a country'
 println('==== Country List ====')
 
 jsonResponse.eachWithIndex({ def country, def index ->
-        println("$(index + 1). $country.name.common")
+        println("${index + 1}. $country.name.common")
     })
 
 // Step 6: Specific checks (example: first country should be Indonesia)

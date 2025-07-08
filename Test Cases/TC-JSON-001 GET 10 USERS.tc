@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case for verifying API GET 10 Users</description>
+   <name>TC-JSON-001 GET 10 USERS</name>
+   <tag>JSONPlaceholder, testCase</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>543d3fb4-adb0-4909-b585-d3e746137c9d</testCaseGuid>
+</TestCaseEntity>
