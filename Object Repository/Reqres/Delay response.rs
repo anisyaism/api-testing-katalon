@@ -5,6 +5,7 @@
    <tag></tag>
    <elementGuidId>33a4ec2e-5461-4856-91a2-370f583afef9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
@@ -24,11 +25,20 @@
       <value>application/json</value>
       <webElementGuid>fd031c67-4e16-42c3-9d60-bc2f5e878c6c</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x-api-key</name>
+      <type>Main</type>
+      <value>reqres-free-v1</value>
+      <webElementGuid>1d12e160-d823-4b2c-8497-302e0f3531a0</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.6.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${Base_Url}api/users?delay=3</restUrl>
+   <restUrl>${BASE_URL_REQRES}/api/users?delay=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -38,11 +48,11 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.Base_Url</defaultValue>
+      <defaultValue>GlobalVariable.BASE_URL_REQRES</defaultValue>
       <description></description>
       <id>cb2bac8c-4c65-4102-a47b-ba32d25acb4f</id>
       <masked>false</masked>
-      <name>Base_Url</name>
+      <name>BASE_URL_REQRES</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

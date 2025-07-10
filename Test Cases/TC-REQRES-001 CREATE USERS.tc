@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case for creating users</description>
+   <name>TC-REQRES-001 CREATE USERS</name>
+   <tag>REQRES, REST, API</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ebf6265d-5c87-45fb-9192-bb753a16730e</testCaseGuid>
+</TestCaseEntity>
