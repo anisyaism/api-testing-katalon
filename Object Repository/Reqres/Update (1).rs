@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;morpheus\&quot;,\n    \&quot;job\&quot;: \&quot;zion resident\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;morpheus HIHI\&quot;,\n    \&quot;job\&quot;: \&quot;zion resident\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -66,6 +66,14 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+def getResponse = WS.getElementPropertyValue(response, 'name')
+def getElementText = WS.getElementText(response, 'name')
+println (&quot;THE UPDATE NAME = &quot; + getElementText)
+def getElementText2 = WS.getElementText(response, 'job')
+println (&quot;THE UPDATE JOB = &quot; + getElementText2)
+def getElementText3 = WS.getElementText(response, 'updatedAt')
+println (&quot;THE UPDATE USER TIME AT = &quot; + getElementText3)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

@@ -54,6 +54,12 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+GlobalVariable.FIRST_NAME = WS.getElementPropertyValue(response, 'data[0].first_name')
+
+println (&quot;First name we get = &quot; + GlobalVariable.FIRST_NAME)
+
+println (GlobalVariable.FIRST_NAME)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

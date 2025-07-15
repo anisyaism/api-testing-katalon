@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case for testing chaining between GET all list and UPDATE user list</description>
+   <name>TC-CHAINING-API-JSON</name>
+   <tag>JSON, API</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fee37cdd-4ed5-486f-ba66-278a7fdd4668</testCaseGuid>
+</TestCaseEntity>
