@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCREQRES-UPDATE USER</name>
+   <tag>REQRES, JSON, API</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5280e20d-415c-4e8a-bb07-2d2ce5fc45d1</testCaseGuid>
+</TestCaseEntity>

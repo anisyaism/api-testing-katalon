@@ -22,6 +22,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>FIRST_NUM</name>
+
    </GlobalVariableEntity>
 </GlobalVariableEntities>
