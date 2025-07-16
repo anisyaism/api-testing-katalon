@@ -4,9 +4,9 @@
    <name>postmanReqres</name>
    <tag></tag>
    <UUID>e3d46f0c-f1c4-4c8d-8c23-cead6029d60e</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.1.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>D:\Katalon testing\api-testing-katalon\postmanReqres.prj</projectFileLocation>

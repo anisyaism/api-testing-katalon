@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TEST SUITES COUNTRIES 3</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a4df197e-ae08-4261-b896-32012e656f4c</testSuiteGuid>
+   <testCaseLink>
+      <guid>7112afd4-b878-4d92-96c4-43e3a82a61bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TCCOUNTRIES003 - GET CAPITAL</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee45f90e-cade-46df-8469-76e1bc6a3c95</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>732d1aaf-f070-4ff1-9e95-de60d8bd4108</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71d8ace1-e8a7-4ae8-9495-ee33baf45d98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>840ef651-53cf-4f56-9e10-ec37251e16bb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b11cc1db-b195-4f03-934f-50fb7648baf8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TCCOUNTRIES004 - GET REGION</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d4b69a1-08e5-4c1e-98f2-3fe3d220b4f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>024ca93d-58cb-4763-be70-b03694b458b6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

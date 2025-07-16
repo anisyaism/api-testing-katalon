@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case about chaining XML response API</description>
+   <name>TC-XML-001</name>
+   <tag>XML, API</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be2c8db4-cfc9-4ce3-aa79-f9dbaeed77b1</testCaseGuid>
+</TestCaseEntity>

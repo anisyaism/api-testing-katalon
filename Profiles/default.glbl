@@ -19,4 +19,9 @@
       <initValue>'https://jsonplaceholder.typicode.com'</initValue>
       <name>BASE_URL_JSONPlaceholder</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>FIRST_NUM</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
