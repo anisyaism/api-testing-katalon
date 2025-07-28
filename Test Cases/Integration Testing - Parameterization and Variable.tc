@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Integration Testing - Parameterization and Variable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a38c1a9-8afc-41a5-a579-ddbefe5cb3b8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c19780cb-193e-444a-ad11-d427906f443c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Country Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c19780cb-193e-444a-ad11-d427906f443c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>countryName</value>
+      <variableId>30e4eb57-4ac3-470c-93dc-5462ed628698</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c19780cb-193e-444a-ad11-d427906f443c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>capitalCity</value>
+      <variableId>dd6b4ca6-337e-447b-b906-39584272e400</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c19780cb-193e-444a-ad11-d427906f443c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ISOCode</value>
+      <variableId>4e572bed-5138-43b5-af43-0e2daa56e96a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Indonesia'</defaultValue>
+      <description></description>
+      <id>30e4eb57-4ac3-470c-93dc-5462ed628698</id>
+      <masked>false</masked>
+      <name>countryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jakarta'</defaultValue>
+      <description></description>
+      <id>dd6b4ca6-337e-447b-b906-39584272e400</id>
+      <masked>false</masked>
+      <name>capitalCity</name>
+   </variable>
+   <variable>
+      <defaultValue>'ID'</defaultValue>
+      <description></description>
+      <id>4e572bed-5138-43b5-af43-0e2daa56e96a</id>
+      <masked>false</masked>
+      <name>ISOCode</name>
+   </variable>
+</TestCaseEntity>
